@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    z-index:9; 
+   }
+  #carouselExampleFade{
+     position:absolute;
+     width:100%;
+     top:0;
+     object-fit: cover;
+     
+   }
+  
+  
+   /* .nav-item a{
+    border: 1px solid white;
+   } */
+  body {
+  
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+
+}
+
+.login_page {
+  
+  background-color: black;
+ 
+  color: white;
+  opacity: .6;
+  
+}
+
+.login_page h2 {
+  text-align: center;
+}
+
+.card img{
+ 
+  height: 10rem;
+  object-fit: cover;
+}
+
+.card{
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  filter: drop-shadow(
+    1px 2px 4px hsl(220deg 60% 50%)
+  );
+}
+
+
+
+
+footer{
+  height: 3rem;
+
+}
