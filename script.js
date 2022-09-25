@@ -66,7 +66,7 @@ function validate() {
     else {
         strengthBadge.style.display = 'block';
         strengthBadge.style.backgroundColor = 'red';
-        strengthBadge.textContent = 'Weak';
+        strengthBadge.textContent = 'Poor';
         status = false;
 
     }
